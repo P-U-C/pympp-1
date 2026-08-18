@@ -38,3 +38,7 @@ from mpp.methods.tempo._defaults import (
 from mpp.methods.tempo.account import TempoAccount
 from mpp.methods.tempo.client import TempoMethod, TransactionError, tempo
 from mpp.methods.tempo.intents import ChargeIntent
+from mpp.methods.tempo.testnet import (
+    check_connection,
+    fund_testnet_address,
+)
